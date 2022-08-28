@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hide{
+    display:none;
+}
+.car{
+    height:120px;
+    border-radius: 10px;
+    width:50px;
+    position:absolute;
+    bottom:120px;
+    background:url(car2.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px 120px;
+}
+.carGame{
+    
+    background: url('45681f81a7f73d23c852de73344416bc--field-wallpaper-chen.jpg');
+    background-repeat:no-repeat;
+   background-size:100% 100%;
+}
+
+.gameArea{
+    height:100vh;
+    width:400px;
+    background: url(road.jpg);
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+}
+.enemy{
+
+    height:100px;
+    border-radius: 10px;
+    width:50px;
+    position:absolute;
+    bottom:120px;
+    background:url(car.png);
+    background-repeat: no-repeat;
+    background-size: 50px 100px;
+}
+.score{
+    position:absolute;
+    top:15px;
+    left:40px;
+    background: #ac9010;
+    widows: 300px;
+    height:50px;
+    width:120px;
+    text-align:center;
+    font-size: 1.5em;
+    color:white;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+}
+.startScreen{
+    position:absolute;
+    top:50%;
+    left:50%;
+    /* height: 300px; */
+    
+    background: #d8673a;
+    border-radius:  50% 20% / 10% 40%;
+    /* background: url('frame-cartoon-red-car-12384138.jpg'); */
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    transform:translate(-50%,-50%);
+    color:black;
+    z-index: 1;
+    text-align:center;
+    /* border:1px  #ff6b6b; */
+    padding:20px;
+    margin:auto;
+    width:50%;
+    cursor: pointer;
+    font-family: cursive;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 26px;
+    text-transform: upper;
+    box-shadow: 0 5px 5px #777;
+}
